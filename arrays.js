@@ -20,4 +20,6 @@ function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
 
-function 
+function accessElementInArray(array, index) {
+  return array[index];
+}
